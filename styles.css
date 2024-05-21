@@ -1,0 +1,53 @@
+
+body {
+    background-image: url(./images/pexels-jeshoots-4825.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left bottom;
+    margin: 0;
+}
+
+#mainCard {
+    background-color: rgb(255, 255, 255, .5);
+    margin: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid silver;
+}
+
+#head{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#answerBox {
+    text-align: center;
+    width: 80%;
+    min-height: 100px;
+    border: 2px solid silver;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgba(255, 115, 119, 0.5) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 115, 119, 0.5) 100%);
+}
+
+#answerBox ul {
+    text-align: start;
+}
+
+#buttonBox {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    margin: 10px auto 10px auto;
+    border: 1px solid red;
+    background-color: rgb(255, 255, 255, .5);
+    border-radius: 4px;
+    box-shadow:  1px 1px 5px black;
+}
+
