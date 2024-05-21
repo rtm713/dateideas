@@ -1,6 +1,6 @@
 const food = document.querySelector('#food');
 const entertainment = document.querySelector('#entertainment');
-const games = document.querySelector('#games');
+const activities = document.querySelector('#activities');
 const athome = document.querySelector('#athome');
 const outdoors = document.querySelector('#outdoors');
 const any = document.querySelector('#any');
@@ -9,7 +9,6 @@ const ideaButton = document.querySelectorAll('.ideaButton');
 
 const answer = document.querySelector('#answer');
 
-
 document.addEventListener('DOMContentLoaded', function() {
     const buttons = document.querySelectorAll('.ideaButton');
     const answer = document.querySelector('#answer');
@@ -17,23 +16,95 @@ document.addEventListener('DOMContentLoaded', function() {
     const dateIdeaList = [
         {
             category: "food",
-            idea: "Go to a BBQ restaurant"
+            idea: "Go to a BBQ restaurant (JackStack, LC's, Arthur Bryant's) "
+        },
+        {
+            category: "food",
+            idea: "Go to a mexican restaurant"
+        },
+        {
+            category: "food",
+            idea: "Go to a chinese restaurant (Chinese Buffet, Shanghai Express)"
+        },
+        {
+            category: "food",
+            idea: "Try a new restaurant"
+        },
+        {
+            category: "food",
+            idea: "Go to an american restaurant (Chili's, AppleBee's, 54th street, Red Door)"
         },
         {
             category: "entertainment",
             idea: "Go see a movie"
         },
         {
-            category: "games",
+            category: "entertainment",
+            idea: "Go to a museum"
+        },
+        {
+            category: "entertainment",
+            idea: "Go to the Zoo"
+        },
+        {
+            category: "entertainment",
+            idea: "Go to a comedy club"
+        },
+        {
+            category: "activities",
             idea: "Go Bowling"
+        },
+        {
+            category: "activities",
+            idea: "Go play Laser tag"
+        },
+        {
+            category: "activities",
+            idea: "Go mini-golfing"
+        },
+        {
+            category: "activities",
+            idea: "Go go-carting"
+        },
+        {
+            category: "activities",
+            idea: "Go to Main Event"
         },
         {
             category: "athome",
             idea: "Cuddle with a movie"
         },
         {
+            category: "athome",
+            idea: "Start a fire in the firepit"
+        },
+        {
+            category: "athome",
+            idea: "Paint a painting"
+        },
+        {
+            category: "athome",
+            idea: "Cook together"
+        },
+        {
             category: "outdoors",
             idea: "Go on a hike"
+        },
+        {
+            category: "outdoors",
+            idea: "Go fishing"
+        },
+        {
+            category: "outdoors",
+            idea: "Ride the motorcycle"
+        },
+        {
+            category: "outdoors",
+            idea: "Have a picnic"
+        },
+        {
+            category: "outdoors",
+            idea: "Go camping"
         }
     ];
 
